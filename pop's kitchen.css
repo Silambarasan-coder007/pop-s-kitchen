@@ -1,0 +1,386 @@
+
+header{
+    background-color: rgb(1, 61, 1);
+    width: 100%;
+    height: 60px;
+   
+}
+.bi-person-fill{
+    position: absolute;
+    left: 530px;
+    top: 1px;
+}
+.head{
+    position: relative;
+    left: 500px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    top: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.head svg:hover{
+    fill: #FFFFFF;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    justify-content: center;
+    position: sticky;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nav-first{
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    left: 150px;
+    font-family: "Quicksand", sans-serif;
+}
+.nav-first a{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+.nav-first a:hover{
+    color: #00D783;
+}
+.nav-third{
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    left: 1190px;
+}
+.nav-third svg:hover{
+   fill: #00D783; 
+}
+.hero-div h1 {
+    position: absolute ;
+    top: 200px;
+    left: 110px;
+    color: rgb(3, 194, 114);
+    font-size: 80px;
+    font-family: "Quicksand", sans-serif;
+}
+.hero-div h2{
+    position: absolute;
+    top: 260px;
+    left: 110px;
+    color: rgb(3, 194, 114);
+    font-size: 80px;
+    font-family: "Quicksand", sans-serif;
+}
+.hero-div h5{
+    position: absolute;
+    top: 192px;
+    left: 295px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 80px;
+}
+.hero-div h3{
+    position: absolute;
+    top: 415px;
+    left: 110px;
+    font-size: 40px;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+}
+.hero-div h4{
+    position: absolute;
+    top: 450px;
+    left: 110px;
+    font-size: 40px;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+}
+.hero-div button{
+    background-color: rgb(3, 194, 114);
+    color: white;
+    position: absolute;
+    top: 580px;
+    left: 110px;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 30px;
+    width: 150px;
+    border: 1px solid  rgb(3, 194, 114);
+    font-family: "Quicksand", sans-serif;
+}
+.hero-div button:hover{
+    background-color: #FFFFFF;
+    color: #00D783;
+    border-color: #FFFFFF;
+}
+.btn1{
+    position: absolute;
+    top: 400px;
+    left: 50px;
+}
+.btn2{
+    position: absolute;
+    top: 400px;
+    left: 1250px;
+}
+.para{
+    align-items: center;
+    width: 1200px;
+    margin-left: 70px;
+    font-size: 16px;
+    color: rgb(1, 109, 1);
+    font-family: "Quicksand", sans-serif;
+}
+.row{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.col img{
+    border-radius: 25px;
+    position: relative;
+    opacity: 0.69;
+    filter: blur(2px);
+    
+}
+.col img:hover{
+    transform: scale(1.05);
+}
+.col{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.col .ph1{
+    position: absolute;
+    font-weight: bolder;
+    top: 1090px;
+    left: 140px;
+    opacity: 1;
+    font-family: "Quicksand", sans-serif;
+}
+.col .ph2{
+    position: absolute;
+    top: 1090px;
+    left: 610px;
+    opacity: 1;
+    font-weight: bolder;
+    font-family: "Quicksand", sans-serif;
+}
+.col .ph3{
+    position: absolute;
+    top: 1090px;
+    font-weight: bolder;
+    left: 990px;
+    font-family: "Quicksand", sans-serif;
+    opacity: 1;
+}
+.col .ph4{
+    font-weight: bolder;
+    position: absolute;
+    top: 1430px;
+    font-family: "Quicksand", sans-serif;
+    left: 175px;
+    opacity: 1;
+}
+.col .ph5{
+    position: absolute;
+    font-family: "Quicksand", sans-serif;
+    top: 1430px;
+    font-weight: bolder;
+    left: 520px;
+    opacity: 1;
+}
+.col .ph6{
+    position: absolute;
+    font-weight: bolder;
+    top: 1430px;
+    left: 1040px;
+    opacity: 1;
+    font-family: "Quicksand", sans-serif;
+}
+.col .ph7{
+    position: absolute;
+    top: 1770px;
+    left: 105px;
+    font-weight: bolder;
+    font-family: "Quicksand", sans-serif;
+    opacity: 1;
+}
+.col .ph8{
+    position: absolute;
+    top: 1770px;
+    left: 610px;
+    font-family: "Quicksand", sans-serif;
+    opacity: 1;
+    font-weight: bolder;
+}
+.col .ph9{
+    position: absolute;
+    top: 1770px;
+    font-weight: bolder;
+    left: 1060px;
+    font-family: "Quicksand", sans-serif;
+    opacity: 1;
+}
+.col .ph10{
+    position: absolute;
+    top: 2125px;
+    font-weight: bolder;
+    font-family: "Quicksand", sans-serif;
+    left: 195px;
+    opacity: 1;
+}
+.col .ph11{
+    position: absolute;
+    top: 2125px;
+    font-weight: bolder;
+    font-family: "Quicksand", sans-serif;
+    left: 630px;
+    opacity: 1;
+}
+.col .ph12{
+    position: absolute;
+    top: 2125px;
+    font-weight: bolder;
+    font-family: "Quicksand", sans-serif;
+    left: 1035px;
+    opacity: 1;
+}
+.col .ph13{
+    position: absolute;
+    top: 2465px;
+    font-weight: bolder;
+    left: 190px;
+    opacity: 1;
+    font-family: "Quicksand", sans-serif;
+}
+.col .ph14{
+    position: absolute;
+    top: 2465px;
+    font-weight: bolder;
+    left: 615px;
+    font-family: "Quicksand", sans-serif;
+    opacity: 1;
+}
+.col .ph15{
+    font-weight: bolder;
+    position: absolute;
+    top: 2465px;
+    font-family: "Quicksand", sans-serif;
+    left: 1045px;
+    opacity: 1;
+}
+.graph{
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    position: relative;
+}
+.graph h1{
+    color: rgb(1, 109, 1);
+}
+.graph h2{
+    color: rgb(65, 64, 64);
+}
+.graph h3{
+    color: rgb(19, 19, 19);
+}
+.done{
+    border: none;
+    position: absolute;
+    left: 350px;
+    bottom: 10px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.gone{
+    border: none;
+    position: absolute;
+    left: 950px;
+    bottom: 10px;
+    border-radius: 50%;
+    padding: 10px; 
+}
+
+.graph:hover{
+    .done{
+        background-color: rgb(1, 61, 1) ;
+        color: white;
+    }
+    .gone{
+        background-color: rgb(1, 61, 1) ;
+        color: white;
+    }
+}
+.foot-bar{
+    background-color:#000 ;
+    position: relative;
+    height: 400px;
+}
+.left{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    padding: 30px;
+    position: absolute;
+    bottom: 90px;
+    padding-left: 60px;
+}
+.left a{
+    text-decoration: none;
+    color: #A0CEB3;
+    font-family: "Quicksand", sans-serif;
+    font-size: 13px;
+}
+.left a:hover{
+    color: #FFFFFF;
+}
+.center{
+    text-align: center;
+    position: absolute;
+    bottom: 105px;
+    left: 370px;
+    font-family: "Quicksand", sans-serif;
+    color: #7FA38E;
+    font-size: 13px;
+}
+.center svg:hover{
+    fill: #FFFFFF;
+}
+.right-top{
+    position: absolute;
+    left: 980px;
+    bottom: 230px;
+    text-align: end;
+    color: #FFFFFF;
+    font-size: 13px;
+    line-height: 5px;
+    letter-spacing: 0.9px;
+    font-family: "Quicksand", sans-serif;
+}
+.right-bottom{
+    position: absolute;
+    left: 995px;
+    bottom: 150px;
+    text-align: end;
+    font-size: 13px;
+    line-height: 5px;
+    font-family: "Quicksand", sans-serif;
+
+}
+.right-top h2,.right-bottom h2{
+    color: #00D783;
+}
+.pay{
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    left: 1000px;
+    bottom: 110px;
+    gap: 5px;
+}
+.pay img{
+    border-radius: 2px;
+}
+
